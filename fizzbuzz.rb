@@ -3,13 +3,11 @@
 
 def fizzbuzz(x)
   if x%3 == 0 && x%5 == 0
-    return "Fizzbuzz"
+    "FizzBuzz"
     elsif x%5 == 0
-      return "Buzz"
+      "Buzz"
     elsif x%3 == 0
-      return "Fizz"
-    else
-      return nil
+      "Fizz"
   end
 end
   
